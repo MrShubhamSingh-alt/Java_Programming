@@ -22,5 +22,7 @@ public class SimpleInheritance
         Nokia2 n1 = new Nokia2();
         n1.f1();
         n1.f2();
+        n1.x = 5 ;
+        System.out.println(n1.x);
     }
 }
